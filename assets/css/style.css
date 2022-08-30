@@ -10815,5 +10815,13 @@ textarea.form-control-lg {
 
 /* Import components */
 /* Import components */
+/* Ejemplo de sass map */
+/* @use "sass:map";
+
+$colors: ('primary': black, 'secondary': white);
+
+@function color($color) {
+  @return map.get($colors, $color);
+} */
 
 /*# sourceMappingURL=style.css.map */

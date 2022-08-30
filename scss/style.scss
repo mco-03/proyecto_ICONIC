@@ -19,3 +19,12 @@
 @use "sections/portafolio";
 @use "sections/get-started";
 @use "sections/footer";
+
+/* Ejemplo de sass map */ 
+/* @use "sass:map";
+
+$colors: ('primary': black, 'secondary': white);
+
+@function color($color) {
+  @return map.get($colors, $color);
+} */
